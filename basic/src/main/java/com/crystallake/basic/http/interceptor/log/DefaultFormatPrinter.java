@@ -2,7 +2,8 @@ package com.crystallake.basic.http.interceptor.log;
 
 import android.text.TextUtils;
 
-import com.cxz.baselibs.utils.CharacterHandler;
+
+import com.crystallake.basic.utils.CharacterHandler;
 
 import java.util.List;
 

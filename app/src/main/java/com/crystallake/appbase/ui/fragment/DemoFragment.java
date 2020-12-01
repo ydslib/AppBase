@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.crystallake.appbase.R;
 import com.crystallake.appbase.event.MessageEvent;
-import com.crystallake.basic.base.fragment.BaseFragment;
+import com.crystallake.basic.base.fragment.support.BaseFragment;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

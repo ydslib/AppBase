@@ -22,6 +22,7 @@ import butterknife.Unbinder;
 
 public abstract class BaseFragment extends RxFragment {
     protected final String TAG = this.getClass().getSimpleName();
+    protected boolean mViewCreated = false;
 
     protected View mRootView;
     protected Context mContext;
@@ -66,6 +67,7 @@ public abstract class BaseFragment extends RxFragment {
         if (parent != null) {
             parent.removeView(mRootView);
         }
+        mViewCreated = true;
         return mRootView;
     }
 
@@ -94,5 +96,6 @@ public abstract class BaseFragment extends RxFragment {
         this.mUnbinder = null;
         this.mContext = null;
         this.mRootView = null;
+        mViewCreated = false;
     }
 }

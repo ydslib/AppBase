@@ -9,6 +9,7 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
+import com.crystallake.basic.base.fragment.support.BaseLazyFragment;
 import com.crystallake.basic.base.mvp.presenter.IPresenter;
 import com.crystallake.basic.base.mvp.view.IView;
 import com.trello.rxlifecycle4.LifecycleTransformer;
